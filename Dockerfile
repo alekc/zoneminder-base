@@ -277,6 +277,8 @@ ENV \
 # Default User Variables
 ENV \
     MYSQL_HOST=db \
+    MYSQL_PORT=3306 \
+    MYSQL_DB_NAME=zm \
     PHP_MAX_CHILDREN=120 \
     PHP_START_SERVERS=12 \
     PHP_MIN_SPARE_SERVERS=6 \
